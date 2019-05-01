@@ -1,8 +1,10 @@
 import React, { Fragment } from 'react';
 
+import ListRestaurants from '../../components/list_restaurants';
+
 const Restaurants = () => (
   <Fragment>
-    <p>testando</p>
+    <ListRestaurants />
   </Fragment>
 )
 
