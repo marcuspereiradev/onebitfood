@@ -15,7 +15,8 @@
     "react-scripts": "3.0.0",
     "react-slick": "^0.24.0",
     "redux": "^4.0.1",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "yarn": "^1.15.2"
   },
   "scripts": {
     "start": "react-scripts start",
