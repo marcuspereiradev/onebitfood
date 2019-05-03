@@ -1,6 +1,6 @@
 export default [
   {
-      'name': 'sushi 1',
+      'name': 'example 1',
       'delivery_tax': '5',
       'image_url': 'https://images.pexels.com/photos/20787/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350',
       'category_title': 'Cozinha japonesa',
