@@ -4,7 +4,8 @@ import { Box, Column, Icon } from "rbx";
 import { bindActionCreators } from 'redux';
 import { hideModal } from "../../actions/modal";
 import { FaTimes } from 'react-icons/fa';
- 
+
+import AddressForm from '../address_form';
  
 class AddressModal extends Component {
  
@@ -25,6 +26,7 @@ class AddressModal extends Component {
                 Meu modal
               </Column>
             </Column.Group>
+            <AddressForm />
           </Box>
         </Column>
       </Column.Group>
