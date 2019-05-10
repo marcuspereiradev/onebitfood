@@ -2,7 +2,7 @@ import { createStore, compose, applyMiddleware } from "redux";
 import thunk from 'redux-thunk';
 import Reducers from "../reducers";
 import { persistReducer } from 'redux-persist';
-import Storage from 'redux-persist/lib/storage';
+import storage from 'redux-persist/lib/storage';
 
 const composeEnhancer = window.__REDUX_DEVTOOLS_COMOPOSE__ || compose;
 
